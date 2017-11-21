@@ -1,0 +1,15 @@
+{
+  
+    "manifest_version": 2,
+    "name": "SeeContent",
+    "version": "1.0",
+  
+    "description": "Open largest image or video in a new tab",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["seeContent.js"]
+      }
+    ]
+  
+  }
